@@ -56,6 +56,9 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
 
                let VENOCYBER_MD_TEXT = `
+**_Qr Code By jay tech_*
+*_Made With 🤍_*
+______________________________________
 *_Pair Code Connected by Venocyber Tech_*
 *_Made With 🤍_*
 ______________________________________
@@ -65,15 +68,14 @@ ______________________________________
 ╚══════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@JASTINMTEWA-vn9pl_
-║❒ *Owner:* _https://wa.me/message/A4QG2JZKBXFTN1_
-║❒ *Repo:* _https://github.com/Kingjux/venocyber-md_
-║❒ *WaGroup:* _https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
-║❒ *Plugins:* _https://github.com/Kingjux/venocyber-md-plugins_
+║❒ *Ytube:* _https://youtube.com/@whizbot-bx9xh?si=_31-yojXZ5BcMiqJ_
+║❒ *Owner:* _https://wa.me/message/18763351213_
+║❒ *Repo:* _https://github.com/WHIZBOT1/WHIZBOTMD_
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VacWsSl3LdQOmWZrBj0l_
+║❒ *WaGroup:* _https://chat.whatsapp.com/EwRThW9r76f1Ly0kvcnrZI_
 ╚══════════════════════╝ 
 _____________________________________
-
+	
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id,{text:VENOCYBER_MD_TEXT},{quoted:session})
  
